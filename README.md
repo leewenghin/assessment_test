@@ -11,7 +11,7 @@
 2. Run `composer install`
 3. Copy the environment file: `cp .env.example .env`
 4. Generate app key: `php artisan key:generate`
-5. Create SQLite file if needed (see database/ folder) and run migrations: `php artisan migrate`
+5. Create the SQLite file if needed (see the `database/` folder), then rebuild and seed the database: `php artisan migrate:fresh --seed`
 6. Start dev server: `php artisan serve`
 
 ### Tasks
